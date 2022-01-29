@@ -11,7 +11,7 @@ type Props = {
 
 type StyleProps = {
     Height?: boolean;
-    rotate?: boolean;
+    rotated?: boolean;
 }
 
 const Wrapper = styled.div<StyleProps>`
@@ -61,7 +61,7 @@ const StyledIcon = styled.div<StyleProps>`
   position: absolute;
   right: 50%;
   top: 50%;
-  ${({ rotate }) => (rotate ? Rotate("180deg") : Rotate("0deg"))}
+  ${({ rotated }) => (rotated ? Rotate("180deg") : Rotate("0deg"))}
   fill: #fff;
   width: 50px;
   height: 50px;
@@ -89,7 +89,7 @@ const Card = ({ headline, text, button }: Props & StyleProps): JSX.Element => {
         </TextWrapper>
         {button && (
           <Opener onClick={toggleOpen}>
-            <StyledIcon rotate={rotate}>
+            <StyledIcon rotated={rotate}>
               <DownArrow />
             </StyledIcon>
           </Opener>
