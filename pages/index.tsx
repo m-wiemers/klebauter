@@ -17,10 +17,6 @@ export default function App() {
           text="Nach der Aufgabe des Shirt-Imperiums hab ich mich entschieden meine berufliche Laufbahn weitgehend zu verändern. Zu verbesser. Und das hab ich geschaft. Zur zeit arbeite ich als Web-Entwickler in einem großen Unternehmen, mit spannenden Aufgaben und einem großen Ziel."
           button
         />
-        <Card
-          headline="Hallo! I bims 1 headline"
-          text="hallo! i bims ein text! hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein text!hallo! i bims ein"
-        />
       </div>
       <Footer />
     </>
