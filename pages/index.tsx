@@ -15,10 +15,8 @@ export default function App() {
         <Card
           headline="Was macht er jetzt?"
           text="Nach der Aufgabe des Shirt-Imperiums hab ich mich entschieden meine berufliche Laufbahn weitgehend zu verändern. Zu verbesser. Und das hab ich geschafft. Zur zeit arbeite ich als Web-Entwickler in einem großen Unternehmen, mit spannenden Aufgaben und einem großen Ziel."
-          button
         />
       </div>
-      <Footer />
     </>
   );
 }
