@@ -12,8 +12,16 @@ export default function App() {
         <p>irgendwann kommt hier was neues... </p>
         <Spacer />
         <Card
-          headline="Was macht er jetzt?"
+          headline="Beruflich"
           text="Kurz: Web-Entwicklung. Web-Apps -> React, React-Native, Nextjs, TypeScript, HTML, CSS usw."
+        />
+        <Card
+          headline="Privat"
+          text="Australien-Fan, Musikhörer, gescheiteter Gitarrenspieler, verheiratet, keine (eigenen) Kinder."
+        />
+        <Card
+          headline="Lieblingsmusik"
+          text="Punk like Green Day, Die Ärzte. Rock like Queen."
         />
       </div>
     </>
