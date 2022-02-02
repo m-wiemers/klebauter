@@ -48,10 +48,23 @@ html {
   background-color: var(--background-color);
   box-sizing: border-box;
   font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+#__next {
+  display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
 }
 
 .App {
-  margin: 2rem 2rem 6rem 2rem;
+  margin: 2rem;
   color: var(--font-color);
   text-align: center;
 }
