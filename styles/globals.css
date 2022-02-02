@@ -62,6 +62,7 @@ body {
 }
 
 .App {
+  overflow-x: hidden;
   margin: 2rem;
   color: var(--font-color);
   text-align: center;
