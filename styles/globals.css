@@ -48,6 +48,7 @@ html {
   background-color: var(--background-color);
   box-sizing: border-box;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
