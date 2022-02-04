@@ -102,7 +102,7 @@ a {
     font-size: 3rem;
   }
 
-  .App {
-    margin: 0.5rem;
+  #__next {
+    min-height: calc(100vh - 67px);
   }
 }
