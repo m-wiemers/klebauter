@@ -21,6 +21,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const menupoints = ["home", "privat", "beruf"];
 
+  console.log(router.pathname);
+
   return (
     <>
       <Menu

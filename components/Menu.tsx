@@ -45,7 +45,7 @@ const StyledLink = styled.a<StyleProps>`
 const Menu = ({ points, active }: Props): JSX.Element => {
   const MenuPoints = points.map((el: string, index) => (
     <Link href={el == "home" ? "/" : el} key={index} passHref>
-      <StyledLink active={active == `/${el}`}>
+      <StyledLink active={active == "home" ? active == el : active == `/${el}`}>
         {el.toLocaleUpperCase()}
       </StyledLink>
     </Link>
