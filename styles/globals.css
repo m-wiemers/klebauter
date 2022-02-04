@@ -63,12 +63,6 @@ body {
   flex-direction: column;
 }
 
-.App {
-  margin: 2rem;
-  color: var(--font-color);
-  text-align: center;
-}
-
 h1 {
   font-family: "Broken", sans-serif;
   font-size: 5rem;
