@@ -5,15 +5,22 @@ import styled from "styled-components";
 import Menu from "../components/Menu";
 import { useRouter } from "next/router";
 
-const ContentWrapper = styled.div`
-  flex: 1;
-  margin: 6rem 2rem 2rem 2rem;
+const Wrapper = styled.div`
+  display: grid;
+  grid-template-rows: 4em 1fr 4em;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas: "header" "content" "footer";
+  overflow: hidden;
   color: var(--font-color);
   text-align: center;
+`;
 
-  @media only screen and (max-width: 540px) {
-    margin: 5rem 0.5rem 0.5rem 0.5rem;
-  }
+const ContentWrapper = styled.div`
+  margin: 0 1rem;
+  grid-area: content;
+  overflow: auto;
+  height: 100%;
 `;
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -25,14 +32,16 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Menu
-        points={menupoints}
-        active={router.pathname == "/" ? "home" : router.pathname}
-      />
-      <ContentWrapper>
-        <Component {...pageProps} />
-      </ContentWrapper>
-      <Footer />
+      <Wrapper>
+        <Menu
+          points={menupoints}
+          active={router.pathname == "/" ? "home" : router.pathname}
+        />
+        <ContentWrapper>
+          <Component {...pageProps} />
+        </ContentWrapper>
+        <Footer />
+      </Wrapper>
     </>
   );
 }

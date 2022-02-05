@@ -10,12 +10,12 @@ type Props = {
 };
 
 type StyleProps = {
-    Height?: boolean;
-    rotated?: boolean;
-}
+  Height?: boolean;
+  rotated?: boolean;
+};
 
 const Wrapper = styled.div<StyleProps>`
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   ${({ Height }) => (Height ? `${heightTransOpen}` : `${heightTransClose}`)}
@@ -28,6 +28,7 @@ const InnerWrapper = styled.div`
   align-items: center;
   width: 100%;
   padding: 1rem;
+  margin: 0.5rem;
   border-radius: 0.3rem;
   box-shadow: 3px 3px 10px var(--border-color);
   background-color: var(--grey-1);

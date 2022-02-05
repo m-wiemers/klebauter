@@ -24,6 +24,9 @@ const Wrapper = styled.div`
     var(--border-color)
   );
   color: var(--font-color);
+  z-index: 1;
+  grid-area: header;
+  grid-row: 1;
 `;
 
 const ActiveStyle = css`

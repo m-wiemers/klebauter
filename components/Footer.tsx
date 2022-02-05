@@ -8,6 +8,8 @@ const Wrapper = styled.div`
     var(--background-color),
     var(--font-color-2)
   );
+  z-index: 1;
+  grid-area: footer;
 
   @media only screen and (max-width: 540px) {
     background-image: none;
@@ -15,6 +17,7 @@ const Wrapper = styled.div`
 `;
 
 const InnerWrapper = styled.div`
+  padding-top: 0.5rem;
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -23,6 +26,7 @@ const InnerWrapper = styled.div`
     flex-direction: column;
     justify-content: none;
     text-align: center;
+    padding-top: 0;
   }
 `;
 

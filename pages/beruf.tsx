@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import { mq } from "../helpers/mediaQueries";
 
 const Business = (): JSX.Element => {
   return (
