@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 9955e717c771241b281ca871d9c1b0a1272d6f13 madsen <marcel@klebauter.de> 1643483342 +0100	clone: from git@github.com:m-wiemers/klebauter.git
+9955e717c771241b281ca871d9c1b0a1272d6f13 077614fbbcde36f17b03ff57644ab0c6e3593b05 madsen <marcel@klebauter.de> 1643483621 +0100	commit: initial commit
+077614fbbcde36f17b03ff57644ab0c6e3593b05 2f3ad0df21f6a49696be2005a47f2461a3213c0e madsen <marcel@klebauter.de> 1643485998 +0100	pull: Fast-forward
+2f3ad0df21f6a49696be2005a47f2461a3213c0e 001f7dee79d8e615776e5517e45d1a61771f44e6 madsen <marcel@klebauter.de> 1643487051 +0100	commit: add favicon
+001f7dee79d8e615776e5517e45d1a61771f44e6 bf8e2e4be482927d14c84c2085dc497e587692f7 madsen <marcel@klebauter.de> 1643487167 +0100	commit: fix type
+bf8e2e4be482927d14c84c2085dc497e587692f7 232bfbab83e38dfc9726205f5dc5b1506468a146 madsen <marcel@klebauter.de> 1643658026 +0100	commit: fix font import
+232bfbab83e38dfc9726205f5dc5b1506468a146 0e7276441f7451c39cc3bb67fd98aeb6595e2f4f madsen <marcel@klebauter.de> 1643663526 +0100	commit: fix babel plugin styled-components
+0e7276441f7451c39cc3bb67fd98aeb6595e2f4f 2e5fa5bb45dd8b26ad73e9535156c0738862d68e madsen <marcel@klebauter.de> 1643755425 +0100	commit: privat infos
+2e5fa5bb45dd8b26ad73e9535156c0738862d68e 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1643819708 +0100	pull: Fast-forward
+889d85880172c23f5dc165a0388ab104a396570d 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644013425 +0100	pull: Fast-forward

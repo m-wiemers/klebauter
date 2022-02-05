@@ -1,0 +1,38 @@
+0000000000000000000000000000000000000000 9955e717c771241b281ca871d9c1b0a1272d6f13 madsen <marcel@klebauter.de> 1643483342 +0100	clone: from git@github.com:m-wiemers/klebauter.git
+9955e717c771241b281ca871d9c1b0a1272d6f13 077614fbbcde36f17b03ff57644ab0c6e3593b05 madsen <marcel@klebauter.de> 1643483621 +0100	commit: initial commit
+077614fbbcde36f17b03ff57644ab0c6e3593b05 077614fbbcde36f17b03ff57644ab0c6e3593b05 madsen <marcel@klebauter.de> 1643485831 +0100	checkout: moving from main to new
+077614fbbcde36f17b03ff57644ab0c6e3593b05 0a2f224f64084ad715f8c8a5e9ae7379c322f383 madsen <marcel@klebauter.de> 1643485851 +0100	commit: delete second Card
+0a2f224f64084ad715f8c8a5e9ae7379c322f383 077614fbbcde36f17b03ff57644ab0c6e3593b05 madsen <marcel@klebauter.de> 1643485990 +0100	checkout: moving from new to main
+077614fbbcde36f17b03ff57644ab0c6e3593b05 2f3ad0df21f6a49696be2005a47f2461a3213c0e madsen <marcel@klebauter.de> 1643485998 +0100	pull: Fast-forward
+2f3ad0df21f6a49696be2005a47f2461a3213c0e 001f7dee79d8e615776e5517e45d1a61771f44e6 madsen <marcel@klebauter.de> 1643487051 +0100	commit: add favicon
+001f7dee79d8e615776e5517e45d1a61771f44e6 bf8e2e4be482927d14c84c2085dc497e587692f7 madsen <marcel@klebauter.de> 1643487167 +0100	commit: fix type
+bf8e2e4be482927d14c84c2085dc497e587692f7 232bfbab83e38dfc9726205f5dc5b1506468a146 madsen <marcel@klebauter.de> 1643658026 +0100	commit: fix font import
+232bfbab83e38dfc9726205f5dc5b1506468a146 0e7276441f7451c39cc3bb67fd98aeb6595e2f4f madsen <marcel@klebauter.de> 1643663526 +0100	commit: fix babel plugin styled-components
+0e7276441f7451c39cc3bb67fd98aeb6595e2f4f 2e5fa5bb45dd8b26ad73e9535156c0738862d68e madsen <marcel@klebauter.de> 1643755425 +0100	commit: privat infos
+2e5fa5bb45dd8b26ad73e9535156c0738862d68e d398c46f2866deeb8d9935490367390b83a2482a madsen <marcel@klebauter.de> 1643802513 +0100	checkout: moving from main to csb-1huhk
+d398c46f2866deeb8d9935490367390b83a2482a d398c46f2866deeb8d9935490367390b83a2482a madsen <marcel@klebauter.de> 1643802831 +0100	reset: moving to HEAD
+d398c46f2866deeb8d9935490367390b83a2482a 2e5fa5bb45dd8b26ad73e9535156c0738862d68e madsen <marcel@klebauter.de> 1643802834 +0100	checkout: moving from csb-1huhk to main
+2e5fa5bb45dd8b26ad73e9535156c0738862d68e 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1643819708 +0100	pull: Fast-forward
+889d85880172c23f5dc165a0388ab104a396570d 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1643822986 +0100	checkout: moving from main to menu
+889d85880172c23f5dc165a0388ab104a396570d 717c6436f2721b0971457a0933b0dd456fe5a42d madsen <marcel@klebauter.de> 1643822996 +0100	commit: add menubar
+717c6436f2721b0971457a0933b0dd456fe5a42d 717c6436f2721b0971457a0933b0dd456fe5a42d madsen <marcel@klebauter.de> 1643994711 +0100	checkout: moving from menu to 717c643
+717c6436f2721b0971457a0933b0dd456fe5a42d 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1643994758 +0100	checkout: moving from 717c6436f2721b0971457a0933b0dd456fe5a42d to main
+889d85880172c23f5dc165a0388ab104a396570d 717c6436f2721b0971457a0933b0dd456fe5a42d madsen <marcel@klebauter.de> 1643994770 +0100	checkout: moving from main to 717c643
+717c6436f2721b0971457a0933b0dd456fe5a42d c438ac79f6ec1c6e13f756e4593745f82fd33e30 madsen <marcel@klebauter.de> 1643998045 +0100	commit: finish menu
+c438ac79f6ec1c6e13f756e4593745f82fd33e30 c438ac79f6ec1c6e13f756e4593745f82fd33e30 madsen <marcel@klebauter.de> 1643998265 +0100	checkout: moving from c438ac79f6ec1c6e13f756e4593745f82fd33e30 to menubar
+c438ac79f6ec1c6e13f756e4593745f82fd33e30 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1643998329 +0100	checkout: moving from menubar to main
+889d85880172c23f5dc165a0388ab104a396570d 717c6436f2721b0971457a0933b0dd456fe5a42d madsen <marcel@klebauter.de> 1643998359 +0100	checkout: moving from main to menu
+717c6436f2721b0971457a0933b0dd456fe5a42d c438ac79f6ec1c6e13f756e4593745f82fd33e30 madsen <marcel@klebauter.de> 1643998396 +0100	merge c438ac7: Fast-forward
+c438ac79f6ec1c6e13f756e4593745f82fd33e30 b1a935cc01ed27c09cda056e7290ff183af37baf madsen <marcel@klebauter.de> 1643998434 +0100	commit: finish bar
+b1a935cc01ed27c09cda056e7290ff183af37baf f3b1712ea148b37bf9492a5cce72319db125fe19 madsen <marcel@klebauter.de> 1643999862 +0100	commit: fix home-prob
+f3b1712ea148b37bf9492a5cce72319db125fe19 889d85880172c23f5dc165a0388ab104a396570d madsen <marcel@klebauter.de> 1644013417 +0100	checkout: moving from menu to main
+889d85880172c23f5dc165a0388ab104a396570d 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644013425 +0100	pull: Fast-forward
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 f3b1712ea148b37bf9492a5cce72319db125fe19 madsen <marcel@klebauter.de> 1644013611 +0100	checkout: moving from main to menu
+f3b1712ea148b37bf9492a5cce72319db125fe19 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644014060 +0100	checkout: moving from menu to main
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644014455 +0100	checkout: moving from main to test
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 c6397723495d98c5df8d39236ed2a184ab2172ee madsen <marcel@klebauter.de> 1644014467 +0100	commit: test mobile view
+c6397723495d98c5df8d39236ed2a184ab2172ee ca5de1d11788d8b4e7989d90d0173b57d40339e7 madsen <marcel@klebauter.de> 1644014988 +0100	commit: fix this issue i hope
+ca5de1d11788d8b4e7989d90d0173b57d40339e7 60627ec73a6efbcce44975da24b27bf7ad0b8f69 madsen <marcel@klebauter.de> 1644015148 +0100	commit: fix card
+60627ec73a6efbcce44975da24b27bf7ad0b8f69 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644077115 +0100	checkout: moving from test to main
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644077907 +0100	checkout: moving from main to lottoapp
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 8cea5d0254a64169d81092ce15b888ac0863a6a3 madsen <marcel@klebauter.de> 1644083914 +0100	commit: intigrate lottoapp

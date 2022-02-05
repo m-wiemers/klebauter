@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 5623e7dc735b60128547aa77fd3e504c93bdc5e0 madsen <marcel@klebauter.de> 1644014455 +0100	branch: Created from HEAD
+5623e7dc735b60128547aa77fd3e504c93bdc5e0 c6397723495d98c5df8d39236ed2a184ab2172ee madsen <marcel@klebauter.de> 1644014467 +0100	commit: test mobile view
+c6397723495d98c5df8d39236ed2a184ab2172ee ca5de1d11788d8b4e7989d90d0173b57d40339e7 madsen <marcel@klebauter.de> 1644014988 +0100	commit: fix this issue i hope
+ca5de1d11788d8b4e7989d90d0173b57d40339e7 60627ec73a6efbcce44975da24b27bf7ad0b8f69 madsen <marcel@klebauter.de> 1644015148 +0100	commit: fix card
