@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 type Props = {
   Height?: string;
 };
 
 const Wrapper = styled.div`
-  height: ${({ Height }: Props) => (Height ? Height : "1rem")};
+  height: ${({ Height }: Props) => (Height ? Height : '1rem')};
 `;
 
 const Spacer = ({ Height }: Props): JSX.Element => {

@@ -1,4 +1,4 @@
-import { css } from "styled-components";
+import { css } from 'styled-components';
 
 export const heightTransOpen = css`
   max-height: 1000px;

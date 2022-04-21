@@ -1,6 +1,5 @@
-import React from "react";
-import Card from "../components/Card";
-import Spacer from "../helpers/Spacer";
+import React from 'react';
+import Spacer from '../helpers/Spacer';
 
 export default function App() {
   return (
