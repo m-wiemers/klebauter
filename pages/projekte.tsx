@@ -10,6 +10,12 @@ const Projects = () => {
       </p>
       <Spacer Height="2rem" />
       <Card
+        headline="Hangman"
+        text="Aktuelles Projekt mit dem bekannten Spiel"
+        link="https://hangman.klebauter.de"
+        linkText="Hangman spielen"
+      />
+      <Card
         headline="Memory"
         text="Lust auf einen alten Klassiker?"
         link="https://memo.klebauter.de"
