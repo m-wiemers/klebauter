@@ -19,7 +19,7 @@ const ContentWrapper = styled.div`
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  const menupoints = ['home', 'privat', 'beruf'];
+  const menupoints = ['home', 'projekte'];
 
   console.log(router.pathname);
 
