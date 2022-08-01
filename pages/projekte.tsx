@@ -1,5 +1,5 @@
-import Card from "../components/Card";
-import Spacer from "../helpers/Spacer";
+import Card from '../components/Card';
+import Spacer from '../helpers/Spacer';
 
 const Projects = () => {
   return (

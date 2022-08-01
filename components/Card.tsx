@@ -1,7 +1,7 @@
-import { useState } from "react";
-import styled, { css } from "styled-components";
-import { DownArrow } from "../icons/Arrows";
-import { heightTransOpen, heightTransClose } from "./css";
+import { useState } from 'react';
+import styled, { css } from 'styled-components';
+import { DownArrow } from '../icons/Arrows';
+import { heightTransOpen, heightTransClose } from './css';
 
 type Props = {
   headline: string;
@@ -63,7 +63,7 @@ const StyledIcon = styled.div<StyleProps>`
   position: absolute;
   right: 50%;
   top: 50%;
-  ${({ rotated }) => (rotated ? Rotate("180deg") : Rotate("0deg"))}
+  ${({ rotated }) => (rotated ? Rotate('180deg') : Rotate('0deg'))}
   fill: #fff;
   width: 50px;
   height: 50px;
