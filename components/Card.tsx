@@ -1,18 +1,20 @@
-import { useState } from 'react';
-import styled, { css } from 'styled-components';
-import { DownArrow } from '../icons/Arrows';
-import { heightTransOpen, heightTransClose } from './css';
+import { useState } from "react";
+import styled, { css } from "styled-components";
+import { DownArrow } from "../icons/Arrows";
+import { heightTransOpen, heightTransClose } from "./css";
 
 type Props = {
   headline: string;
   text: string;
   button?: boolean;
+  link?: string;
+  linkText?: string;
 };
 
 type StyleProps = {
-    Height?: boolean;
-    rotated?: boolean;
-}
+  Height?: boolean;
+  rotated?: boolean;
+};
 
 const Wrapper = styled.div<StyleProps>`
   margin-bottom: 2.5rem;
@@ -61,7 +63,7 @@ const StyledIcon = styled.div<StyleProps>`
   position: absolute;
   right: 50%;
   top: 50%;
-  ${({ rotated }) => (rotated ? Rotate('180deg') : Rotate('0deg'))}
+  ${({ rotated }) => (rotated ? Rotate("180deg") : Rotate("0deg"))}
   fill: #fff;
   width: 50px;
   height: 50px;
@@ -71,7 +73,22 @@ const TextWrapper = styled.div`
   overflow: hidden;
 `;
 
-const Card = ({ headline, text, button }: Props & StyleProps): JSX.Element => {
+const StyledLink = styled.a`
+  color: var(--font-color-1);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--font-color-2);
+  }
+`;
+
+const Card = ({
+  headline,
+  text,
+  button,
+  link,
+  linkText,
+}: Props & StyleProps): JSX.Element => {
   const [open, setOpen] = useState<boolean>(false);
   const [rotate, setRotate] = useState<boolean>(false);
 
@@ -87,6 +104,9 @@ const Card = ({ headline, text, button }: Props & StyleProps): JSX.Element => {
         <TextWrapper>
           <p>{text}</p>
         </TextWrapper>
+        <StyledLink href={link} target="_blank">
+          {linkText}
+        </StyledLink>
         {button && (
           <Opener onClick={toggleOpen}>
             <StyledIcon rotated={rotate}>

@@ -1,9 +1,9 @@
-import '../styles/globals.css';
-import type { AppProps } from 'next/app';
-import Footer from '../components/Footer';
-import styled from 'styled-components';
-import Menu from '../components/Menu';
-import { useRouter } from 'next/router';
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import Footer from "../components/Footer";
+import styled from "styled-components";
+import Menu from "../components/Menu";
+import { useRouter } from "next/router";
 
 const ContentWrapper = styled.div`
   flex: 1;
@@ -19,7 +19,7 @@ const ContentWrapper = styled.div`
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  const menupoints = ['home', 'privat', 'beruf'];
+  const menupoints = ["home", "projekte"];
 
   console.log(router.pathname);
 
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Menu
         points={menupoints}
-        active={router.pathname == '/' ? 'home' : router.pathname}
+        active={router.pathname == "/" ? "home" : router.pathname}
       />
       <ContentWrapper>
         <Component {...pageProps} />

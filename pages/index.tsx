@@ -1,14 +1,16 @@
-import React from 'react';
-import Spacer from '../helpers/Spacer';
+import React from "react";
+import Spacer from "../helpers/Spacer";
+import Card from "../components/Card";
 
 export default function App() {
   return (
     <>
       <h1>Klebauter.de</h1>
-      <p>NO MORE T-SHIRTS</p>
       <Spacer />
-      <p>irgendwann kommt hier was neues... </p>
-      <Spacer />
+      <Card
+        headline="No More T-Shirts"
+        text="Irgendwann kommt hier was neues."
+      />
     </>
   );
 }
