@@ -1,30 +1,30 @@
 @font-face {
-  font-family: "Broken";
-  src: url("../public/fonts/broken/broken15.ttf");
+  font-family: 'Broken';
+  src: url('../public/fonts/broken/broken15.ttf');
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../public/fonts/roboto/Roboto-Regular.ttf");
+  font-family: 'Roboto';
+  src: url('../public/fonts/roboto/Roboto-Regular.ttf');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../public/fonts/roboto/Roboto-Medium.ttf");
+  font-family: 'Roboto';
+  src: url('../public/fonts/roboto/Roboto-Medium.ttf');
   font-style: medium;
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../public/fonts/roboto/Roboto-Bold.ttf");
+  font-family: 'Roboto';
+  src: url('../public/fonts/roboto/Roboto-Bold.ttf');
   font-style: bold;
   font-weight: 700;
   font-display: swap;
@@ -41,7 +41,7 @@
   --grey-2: #473450;
   --grey-3: #6a1e8f;
   --grey-4: #810fb9;
-  --border-color: #12ff2b;
+  --border-color: var(--font-color-3);
 }
 
 html {
@@ -67,14 +67,14 @@ body {
 }
 
 h1 {
-  font-family: "Broken", sans-serif;
+  font-family: 'Broken', sans-serif;
   font-size: 5rem;
   color: var(--font-color-1);
   margin: 0;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: medium;
   font-size: 2em;
   color: var(--font-color-1);
@@ -82,14 +82,14 @@ h2 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   margin: 0.5rem 0.3rem;
 }
 
 a {
-  font-family: "Roboto", "sans-serif";
+  font-family: 'Roboto', 'sans-serif';
   color: var(--font-color-1);
 }
 
