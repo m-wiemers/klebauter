@@ -13,26 +13,13 @@ type StyleProps = {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(
-    var(--background-color),
-    var(--background-color),
-    var(--background-color),
-    var(--background-color),
-    var(--border-color)
-  );
   color: var(--font-color);
 `;
 
 const ActiveStyle = css`
-  background-image: linear-gradient(
-    var(--background-color),
-    var(--background-color),
-    var(--background-color),
-    var(--font-color-2)
-  );
+  border-bottom: 2px solid var(--border-color);
 `;
 
 const StyledLink = styled.a<StyleProps>`

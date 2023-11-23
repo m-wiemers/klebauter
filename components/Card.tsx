@@ -32,7 +32,7 @@ const InnerWrapper = styled.div`
   padding: 1rem;
   border-radius: 0.3rem;
   box-shadow: 3px 3px 10px var(--border-color);
-  background-color: var(--grey-1);
+  background-color: var(--background-color);
 
   @media only screen and (min-width: 540px) {
     justify-self: center;

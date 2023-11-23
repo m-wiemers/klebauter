@@ -31,8 +31,8 @@
 }
 
 :root {
-  --background-color: #000;
-  --font-color: #fff;
+  --background-color: #fff;
+  --font-color: #000;
   --font-color-1: #9800e3;
   --font-color-2: #7200ab;
   --font-color-3: #4c0072;
@@ -41,7 +41,7 @@
   --grey-2: #473450;
   --grey-3: #6a1e8f;
   --grey-4: #810fb9;
-  --border-color: var(--font-color-3);
+  --border-color: var(--grey-1);
 }
 
 html {
