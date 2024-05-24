@@ -41,8 +41,8 @@ const Footer = (): JSX.Element => {
     <Wrapper>
       <InnerWrapper>
         <StyledP>marcel wiemers</StyledP>
-        <StyledP>wachfuß 4</StyledP>
-        <StyledP>33442 herzebrock-clarholz</StyledP>
+        <StyledP>westfalenweg 30a</StyledP>
+        <StyledP>33332 Gütersloh</StyledP>
       </InnerWrapper>
     </Wrapper>
   );
