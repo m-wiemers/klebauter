@@ -9,6 +9,7 @@ type Props = {
   button?: boolean;
   link?: string;
   linkText?: string;
+  children?: JSX.Element;
 };
 
 type StyleProps = {
@@ -20,7 +21,7 @@ const Wrapper = styled.div<StyleProps>`
   margin-bottom: 2.5rem;
   display: flex;
   justify-content: center;
-  ${({ Height }) => (Height ? `${heightTransOpen}` : `${heightTransClose}`)}
+  ${({ Height }) => (Height ? `${heightTransOpen}` : `${heightTransClose}`)};
 `;
 
 const InnerWrapper = styled.div`
@@ -88,6 +89,7 @@ const Card = ({
   button,
   link,
   linkText,
+  children,
 }: Props & StyleProps): JSX.Element => {
   const [open, setOpen] = useState<boolean>(false);
   const [rotate, setRotate] = useState<boolean>(false);
@@ -104,6 +106,7 @@ const Card = ({
         <TextWrapper>
           <p>{text}</p>
         </TextWrapper>
+        {children && <div>{children}</div>}
         <StyledLink href={link} target="_blank">
           {linkText}
         </StyledLink>
